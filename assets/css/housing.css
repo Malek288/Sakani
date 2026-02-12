@@ -70,3 +70,23 @@ nav {
     font-size: 13px;
 
 }
+
+/* Form checks styling */
+.form-check {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+.form-check-input {
+    flex-shrink: 0;
+    margin: 0;
+}
+
+.form-check-label {
+    margin: 0 !important;
+    cursor: pointer;
+    color: #374151;
+    font-size: 14px;
+}
