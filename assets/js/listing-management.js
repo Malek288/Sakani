@@ -60,7 +60,7 @@ function Sdata() {
            <div class="card mb-3 w-100 mt-5">
   <div class="row g-0">
     <div class="col-md-3  ">
-      <img src="assets/img/WhatsApp Image 2025-12-26 at 4.07.29 PM.jpeg" alt="">
+      <img src="assets/img/listing-room-1.jpeg" alt="">
 
     </div>
     <div class="col-md-8">
@@ -142,7 +142,6 @@ function updateDataLS(i) {
   localStorage.dataObj = JSON.stringify(datapost);
   Sdata();
 }
-
 
 
 

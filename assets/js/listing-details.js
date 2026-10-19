@@ -17,7 +17,7 @@ postContainer.innerHTML = `
     <div class="row g-0">
         <!-- Image Column -->
         <div class="col-12 col-md-8 p-0">
-            <img src="assets/img/WhatsApp Image 2025-12-26 at 4.07.29 PM.jpeg" 
+            <img src="assets/img/listing-room-1.jpeg"
                  class="img-fluid rounded-0 rounded-end-3 w-100 h-100" alt="">
         </div>
 

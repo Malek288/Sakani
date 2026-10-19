@@ -5,7 +5,7 @@ function createCard(post, index) {
     card.className = 'card h-100 shadow-sm';
 
     const img = document.createElement('img');
-    img.src = post.image || 'assets/img/WhatsApp Image 2025-12-26 at 4.08.02 PM.jpeg';
+    img.src = post.image || 'assets/img/listing-room-2.jpeg';
     img.className = 'card-img-top';
     img.alt = post.title;
 
@@ -32,7 +32,7 @@ function createCard(post, index) {
     price.append(priceText, period);
 
     const link = document.createElement('a');
-    link.href = `post.html?postIndex=${index}`;
+    link.href = `listing-details.html?postIndex=${index}`;
     link.className = 'btn btn-primary';
     link.textContent = 'عرض التفاصيل';
 

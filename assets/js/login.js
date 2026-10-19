@@ -9,7 +9,7 @@ console.log(button);
 
 button.addEventListener('click', function (e) {
     if (Email.value === Gmail && password.value === pass) {
-        window.location.href = "addpost.html";
+        window.location.href = "create-listing.html";
         alert('Login Successful');
         localStorage.setItem('loggedIn', 'true');
     }
@@ -19,5 +19,4 @@ button.addEventListener('click', function (e) {
     }
 
 })
-
 

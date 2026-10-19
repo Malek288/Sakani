@@ -136,7 +136,7 @@ const houses = [
   }
 ];
 // لو عايز تخزن بوستات كتير من غير ما تدخلها بإيدك شيل الكومنت عن السطر الجاي
-// localStorage.setItem('dataObj', JSON.stringify(houses));
+      localStorage.setItem('dataObj', JSON.stringify(houses));
 
 const searchParameters = new URLSearchParams(window.location.search);
 const cityParam = searchParameters.get("city");

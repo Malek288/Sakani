@@ -8,7 +8,7 @@ function isLoggedin(){
 
   if(localStorage.getItem("loggedIn"))
     {
-      adminPage.href='addpost.html'
+      adminPage.href='create-listing.html'
     }
   else 
     adminPage.href='login.html';

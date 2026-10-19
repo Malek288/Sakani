@@ -2,7 +2,7 @@ const loginBTN = document.getElementById('loginBTN');
 const adminPage=document.getElementById('adminPage');
 adminPage.onclick=isLoggedin
 function isLoggedin(){
-  localStorage.getItem("loggedIn")?window.location.href='addpost.html':window.location.href='login.html';
+  localStorage.getItem("loggedIn")?window.location.href='create-listing.html':window.location.href='login.html';
 }
 localStorage.getItem("loggedIn")?loginBTN.innerText="تسجيل خروج":loginBTN.innerText="تسجيل دخول";
 
@@ -30,7 +30,7 @@ function displayPosts() {
         postsCntainer.innerHTML += `
                                 <div class="col-6">
                             <div class="card ">
-                                <img src="assets/img/WhatsApp Image 2025-12-26 at 4.08.02 PM.jpeg" class="card-img-top"
+                                <img src="assets/img/listing-room-2.jpeg" class="card-img-top"
                                     alt="...">
                                 <div class="card-body">
 
@@ -61,5 +61,5 @@ function displayPosts() {
 displayPosts();
 
 const openPost=(ind)=>{
-    window.location.href=`post.html?postIndex=${ind}`;
+    window.location.href=`listing-details.html?postIndex=${ind}`;
 }
