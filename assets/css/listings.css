@@ -70,12 +70,15 @@ nav {
     font-size: 13px;
 
 }
+.form-check * {
+    position: relative !important;
+}
 
-/* Form checks styling */
 .form-check {
     display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
     align-items: center;
-    gap: 8px;
     margin-bottom: 12px;
 }
 
